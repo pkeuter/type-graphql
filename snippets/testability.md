@@ -1,5 +1,7 @@
+<!-- markdownlint-disable MD041 -->
+
 ```ts
-@Resolver(objectType => Recipe)
+@Resolver(of => Recipe)
 export class RecipeResolver {
   constructor(
     private readonly recipeRepository: Repository<Recipe>,
@@ -19,7 +21,7 @@ export class RecipeResolver {
 
   @FieldResolver()
   ratings(@Root() recipe: Recipe) {
-    return this.ratingsRepository.find({ recipeId: recipe.id });
+    return this.rateRepository.find({ recipeId: recipe.id });
   }
 }
 ```

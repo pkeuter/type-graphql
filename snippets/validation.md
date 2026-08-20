@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD041 -->
+
 ```ts
 @InputType()
 export class RecipeInput {
@@ -5,12 +7,12 @@ export class RecipeInput {
   @MaxLength(30)
   title: string;
 
-  @Field({ nullable: true })     
+  @Field({ nullable: true })
   @Length(30, 255)
   description?: string;
 
   @Field(type => [String])
   @MaxArraySize(25)
-  ingredients?: string[];
+  ingredients: string[];
 }
 ```
