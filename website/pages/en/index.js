@@ -271,16 +271,8 @@ const CollectiveSection = props => (
             <img src={imgUrl("felix.png")} style={{ width: 60 }} />
             <span>Felix Technologies</span>
           </a>
-          <a href="https://instinctools.com/manufacturing/" target="_blank" rel="sponsored">
-            <img src={imgUrl("instinctools.svg")} style={{ width: 100 }} />
-            <span>*instinctools</span>
-          </a>
         </div>
         <div className="tiles">
-          <a href="https://guidebook.betwinner.com/" target="_blank" rel="sponsored">
-            <img src={imgUrl("betwinner.svg")} style={{ width: 100 }} />
-            <span>BetWinner</span>
-          </a>
           <a href="https://buzzvoice.com/" target="_blank" rel="sponsored">
             <img src={imgUrl("logo-buzzv.png")} style={{ width: 70 }} />
             <span>BuzzVoice</span>
@@ -297,32 +289,12 @@ const CollectiveSection = props => (
             <img src={imgUrl("nove_casino.svg")} style={{ width: 70 }} />
             <span>Nove Casino</span>
           </a>
-          <a
-            href="https://play-fortune.pl/gry-online/jednoreki-bandyta/"
-            target="_blank"
-            rel="sponsored"
-          >
-            <img src={imgUrl("play_fortune.png")} style={{ width: 80 }} />
-            <span>Play Fortune</span>
-          </a>
-          <a href="https://wechoosethemoon.org/kasyna-online/" target="_blank" rel="sponsored">
-            <img src={imgUrl("moonkasyno.png")} style={{ width: 60 }} />
-            <span>MoonKasyno</span>
-          </a>
-          <a href="https://www.casinobillions.com/pl/" target="_blank" rel="sponsored">
-            <img src={imgUrl("kasyno-online.png")} style={{ width: 50 }} />
-            <span>Kasyno Online</span>
-          </a>
           <a href="https://www.fbpostlikes.com/" target="_blank" rel="sponsored">
             <img src={imgUrl("fbpostlikes.webp")} style={{ width: 90 }} />
             <span>FBPostLikes</span>
           </a>
         </div>
         <div className="tiles">
-          <a href="https://sidesmedia.com/" target="_blank" rel="sponsored">
-            <img src={imgUrl("sidesmedia.png")} style={{ width: 40 }} />
-            <span>SidesMedia</span>
-          </a>
           <a
             href="https://www.socialfollowers.uk/buy-tiktok-followers/"
             target="_blank"
@@ -330,10 +302,6 @@ const CollectiveSection = props => (
           >
             <img src={imgUrl("social_followers.png")} style={{ width: 60 }} />
             <span>Social Followers</span>
-          </a>
-          <a href="https://igcomment.com/buy-instagram-comments/" target="_blank" rel="sponsored">
-            <img src={imgUrl("ig-comment.png")} style={{ width: 80 }} />
-            <span>IG Comment</span>
           </a>
           <a href="https://twicsy.com/buy-instagram-followers" target="_blank" rel="sponsored">
             <img src={imgUrl("twicsy.svg")} style={{ width: 100 }} />
@@ -347,14 +315,6 @@ const CollectiveSection = props => (
             <img src={imgUrl("v4u.png")} style={{ width: 80 }} />
             <span>Views4You</span>
           </a>
-          <a
-            href="https://au.trustpilot.com/review/bestpayidpokies.net"
-            target="_blank"
-            rel="sponsored"
-          >
-            <img src={imgUrl("payid_pookies.avif")} style={{ width: 45 }} />
-            <span>PayID Pokies</span>
-          </a>
           <a href="https://global.fun88.com/" target="_blank" rel="sponsored">
             <img src={imgUrl("fun88.png")} style={{ width: 40 }} />
             <span>Fun88</span>
@@ -363,9 +323,39 @@ const CollectiveSection = props => (
             <img src={imgUrl("buyfans.png")} style={{ width: 45 }} />
             <span>Buy.Fans</span>
           </a>
-          <a href="https://punchng.com/casino-online/no/" target="_blank" rel="sponsored">
-            <img src={imgUrl("punchng.png")} style={{ width: 55 }} />
-            <span>PunchngNGR</span>
+        </div>
+        <div className="tiles">
+          <a
+            href="https://www.reddit.com/r/YouTubeCamp/comments/1pwtija/whats_the_best_site_to_buy_youtube_subscribers/"
+            target="_blank"
+            rel="sponsored"
+          >
+            <img src={imgUrl("buying-youtube-subscribers.png")} style={{ width: 45, height: 45 }} />
+            <span>Buying Youtube Subscribers</span>
+          </a>
+          <a href="https://www.jazzonline.gr/" target="_blank" rel="sponsored">
+            <img src={imgUrl("jazzonline.webp")} style={{ width: 98, height: 28 }} />
+            <span>τα καλυτερα</span>
+          </a>
+          <a href="https://onlinecasinosgr.com/" target="_blank" rel="sponsored">
+            <img src={imgUrl("online-casinos-gr.webp")} style={{ width: 99, height: 28 }} />
+            <span>Online καζίνο ελληνικά</span>
+          </a>
+          <a href="https://www.jbo88b.com/vn/" target="_blank" rel="sponsored">
+            <img src={imgUrl("jbo-vietnam.png")} style={{ width: 80, height: 28 }} />
+            <span>JBO Vietnam</span>
+          </a>
+          <a
+            href="https://www.reddit.com/r/SmartBuying/comments/1tyj4cx/where_can_i_buy_linkedin_followers_likes_and/"
+            target="_blank"
+            rel="sponsored"
+          >
+            <img src={imgUrl("buy-linkedin-followers.png")} style={{ width: 45, height: 45 }} />
+            <span>Buy LinkedIn Followers</span>
+          </a>
+          <a href="https://www.liceodiazce.it/" target="_blank" rel="sponsored">
+            <img src={imgUrl("casino-non-aams.webp")} style={{ width: 68, height: 28 }} />
+            <span>casino non aams</span>
           </a>
         </div>
         <h3 className="title">Members 💪</h3>
